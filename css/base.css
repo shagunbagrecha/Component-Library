@@ -1,0 +1,65 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Nunito+Sans:wght@300&display=swap');
+
+:root {
+
+  /* colors */
+
+  --clr-green-light: #A7F3D0;
+  --clr-green: #059669;
+  --clr-green-dark: #047857;
+
+  --clr-yellow-light: #FDE68A;
+  --clr-yellow: #F59E0B;
+  --clr-yellow-dark: #D97706;
+
+  --clr-blue-light: #BFDBFE;
+  --clr-blue: #3B82F6;
+  --clr-blue-dark: #2563EB;
+
+  --clr-red-light: #FECACA;
+  --clr-red: #EF4444;
+  --clr-red-dark: #DC2626;
+
+  --clr-purple-light: #DDD6FE;
+  --clr-purple: #8B5Cf6;
+  --clr-purple-dark: #7C3AED;
+
+  --clr-gray-light: #E5E7EB;
+  --clr-gray: #6B7280;
+  --clr-gray-dark: #4B5563;
+
+
+  /* font family */
+  --font-primary: 'Montserrat Alternates', sans-serif;
+  --font-secondary: 'Nunito Sans', sans-serif;
+
+  /* font size */
+  --fs-xxl: 3rem;
+  --fs-xl: 2.5rem;
+  --fs-lg: 2rem;
+  --fs-md: 1.5rem;
+  --fs-sm: 1.2rem;
+  --fs-xs: 0.5rem;
+
+}
+
+/* resets */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--ff-primary);
+}
