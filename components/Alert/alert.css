@@ -1,0 +1,43 @@
+h1{
+    font-family: var(--font-primary);
+}
+
+.alert{
+    border-radius: 0.3rem;
+    font-weight: 600;
+    font-family: var(--font-secondary);
+}
+
+.alert-primary{
+    color: var(--clr-purple-dark);
+    background: var(--clr-purple-light);
+}
+
+.alert-success{
+    color: var(--clr-green);
+    background-color: var(--clr-green-light);
+}
+
+.alert-warning{
+    color: var(--clr-yellow-dark);
+    background-color: var(--clr-yellow-light);
+}
+
+.alert-danger{
+    color: var(--clr-red);
+    background-color: var(--clr-red-light);
+}
+
+.alert-info{
+    color: var(--clr-blue);
+    background-color: var(--clr-blue-light);
+}
+
+.alert-dark{
+    color: var(--clr-gray);
+    background-color: var(--clr-gray-light);
+}
+
+.alert-dismissible{
+  cursor: pointer;
+}
