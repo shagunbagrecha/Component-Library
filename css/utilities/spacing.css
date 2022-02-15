@@ -30,6 +30,12 @@
     margin: 0 2rem;
 }
 
+/* margin-top */
+
+.mt-md{
+    margin-top: 2rem;
+}
+
 /* margin-top bottom */
 
 .my-sm{
