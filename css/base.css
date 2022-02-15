@@ -25,9 +25,11 @@
   --clr-purple: #8B5Cf6;
   --clr-purple-dark: #7C3AED;
 
-  --clr-gray-light: #E5E7EB;
+  --clr-gray-light: #d1d1d1;
   --clr-gray: #6B7280;
   --clr-gray-dark: #4B5563;
+
+  --clr-white: #ffffff;
 
 
   /* font family */

@@ -67,7 +67,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: white;
+	color: var(--clr-white);
 }
 
 .badge-icon-mail{
