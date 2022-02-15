@@ -1,24 +1,24 @@
 .avatar {
 	border-radius: 50%;
+	margin: 0 0.5rem;
 }
 
 .avatar-text, .avatar-icon{
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0 1rem;
 }
 
-
 .avatar-text{
-	background-color: var(--clr-blue-light);
 	font-size: var(--fs-md);
+	background-color: var(--clr-blue-light);
 	font-family:  var(--font-secondary);
 	font-weight: bold;
 }
 
 .avatar-icon{
 	background-color: var(--clr-gray-light);
+	font-size: var(--fs-sm);
 }
 
 .avatar-lg {
@@ -39,9 +39,4 @@
 .avatar-xs {
 	width: 5rem;
 	height: 5rem;
-}
-
-.avatar-xxs{
-	width: 3rem;
-	height: 3rem;
 }
