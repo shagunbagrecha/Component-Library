@@ -9,6 +9,8 @@
 @import '../components/Button/button.css';
 @import '../components/Avatar/avatar.css';
 @import '../components/Badge/badge.css';
+@import '../components/Image/image.css';
+@import '../components/Input/input.css';
 
 /* utilities */
 @import './utilities/container.css';

@@ -22,6 +22,11 @@
 }
 
 /* margin-left right */
+
+.mx-auto{
+    margin: 0 auto;
+}
+
 .mx-sm{
     margin: 0 1rem;
 }
