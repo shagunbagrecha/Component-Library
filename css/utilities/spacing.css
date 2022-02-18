@@ -37,8 +37,18 @@
 
 /* margin-top */
 
+.mt-0{
+    margin-top: 0;
+}
+
 .mt-md{
     margin-top: 2rem;
+}
+
+/* margin-bottom */
+
+.mb-0{
+    margin-bottom: 0;
 }
 
 /* margin-top bottom */
@@ -72,6 +82,10 @@
 
 .p-4{
     padding: 4rem;
+}
+
+.pt-1{
+    padding-top: 1rem;
 }
 
 /* padding-left right */

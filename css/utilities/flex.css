@@ -31,4 +31,8 @@
     flex-wrap: wrap;
 }
 
+.flex-content-center{
+    align-content: center;
+}
+
 
