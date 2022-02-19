@@ -2,13 +2,16 @@
 .grid-col-3,
 .grid-col-2 {
   gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
   align-items: center;
   width: 100%;
   padding: 1rem;
   margin: 1rem;
   border: 1px solid var(--clr-gray-light);
   border-radius: 0.5rem;
+}
+
+.grid-col-4{
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
 }
 
 .grid-item {
@@ -20,3 +23,14 @@
   align-self: center;
   text-align: center;
 }
+
+.grid-col-3{
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+}
+
+.grid-col-2{
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
