@@ -27,6 +27,14 @@
   align-items: end;
 }
 
+.flex-wrap-col {
+  flex-flow: column wrap;
+}
+
+.flex-wrap-row {
+  flex-flow: row wrap;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }

@@ -1,3 +1,5 @@
+/* Font Sizes */
+
 .fs-xxl {
   font-size: var(--fs-xxl);
 }
@@ -24,4 +26,22 @@
 
 .text-center {
   text-align: center;
+}
+
+/* Font weights */
+
+.fw-normal {
+  font-weight: var(--fw-normal);
+}
+
+.fw-semi-bold {
+  font-weight: var(--fw-semi-bold);
+}
+
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+
+.fw-bolder {
+  font-weight: var(--fw-bolder);
 }

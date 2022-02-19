@@ -12,10 +12,12 @@
 @import '../components/Image/image.css';
 @import '../components/Input/input.css';
 @import '../components/Card/card.css';
+@import '../components/Typography/typography.css';
+@import '../components/List/list.css';
 
 /* utilities */
 @import './utilities/container.css';
 @import './utilities/display.css';
 @import './utilities/flex.css';
-@import './utilities//typography.css';
+@import './utilities//text-utils.css';
 @import './utilities/spacing.css';
