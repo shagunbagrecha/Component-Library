@@ -1,117 +1,118 @@
 /* Margin */
 
 /* margin-top left bottom right */
-.m-0{
-    margin:0;
+.m-0 {
+  margin: 0;
 }
 
-.m-1{
-    margin:1rem;
+.m-1 {
+  margin: 1rem;
 }
 
-.m-2{
-    margin:2rem;
+.m-2 {
+  margin: 2rem;
 }
 
-.m-3{
-    margin: 3rem;
+.m-3 {
+  margin: 3rem;
 }
 
-.m-4{
-    margin: 4rem;
+.m-4 {
+  margin: 4rem;
 }
 
 /* margin-left right */
 
-.mx-auto{
-    margin: 0 auto;
+.mx-auto {
+  margin: 0 auto;
 }
 
-.mx-sm{
-    margin: 0 1rem;
+.mx-sm {
+  margin: 0 1rem;
 }
 
-.mx-md{
-    margin: 0 2rem;
+.mx-md {
+  margin: 0 2rem;
 }
 
 /* margin-top */
 
-.mt-0{
-    margin-top: 0;
+.mt-0 {
+  margin-top: 0;
 }
 
-.mt-md{
-    margin-top: 2rem;
+.mt-md {
+  margin-top: 2rem;
 }
 
 /* margin-bottom */
 
-.mb-0{
-    margin-bottom: 0;
+.mb-0 {
+  margin-bottom: 0;
 }
 
 /* margin-top bottom */
 
-.my-sm{
-    margin: 1rem 0;
+.my-sm {
+  margin: 1rem 0;
 }
 
-.my-md{
-    margin: 2rem 0;
+.my-md {
+  margin: 2rem 0;
 }
 
 /* padding */
 
 /* padding-top left bottom right */
-.p-0{
-    padding:0;
+.p-0 {
+  padding: 0;
 }
 
-.p-1{
-    padding:1rem;
+.p-1 {
+  padding: 1rem;
 }
 
-.p-2{
-    padding:2rem;
+.p-2 {
+  padding: 2rem;
 }
 
-.p-3{
-    padding: 3rem;
+.p-3 {
+  padding: 3rem;
 }
 
-.p-4{
-    padding: 4rem;
+.p-4 {
+  padding: 4rem;
 }
 
-.pt-1{
-    padding-top: 1rem;
+.pt-1 {
+  padding-top: 1rem;
 }
 
 /* padding-left right */
-.px-sm{
-    padding: 0 1rem;
+.px-sm {
+  padding: 0 1rem;
 }
 
-.px-md{
-    padding: 0 2rem;
+.px-md {
+  padding: 0 2rem;
 }
 
 /* padding-top bottom */
 
-.py-sm{
-    padding: 1rem 0;
+.py-sm {
+  padding: 1rem 0;
 }
 
-.py-md{
-    padding: 2rem 0;
+.py-md {
+  padding: 2rem 0;
 }
 
-.pr-xs{
-    padding-right: 0.5rem;
+.pr-xs {
+  padding-right: 0.5rem;
 }
 
-.pl-xs{
-    padding-left: 0.5rem;
+.pl-xs {
+  padding-left: 0.5rem;
 }
+
 /* more spacings will be added as per usecases */

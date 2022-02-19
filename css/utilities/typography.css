@@ -1,27 +1,27 @@
 .fs-xxl {
-    font-size: var(--fs-xxl);
+  font-size: var(--fs-xxl);
 }
 
 .fs-xl {
-    font-size: var(--fs-xl);
+  font-size: var(--fs-xl);
 }
 
 .fs-lg {
-    font-size: var(--fs-lg);
+  font-size: var(--fs-lg);
 }
 
 .fs-md {
-    font-size: var(--fs-md);
+  font-size: var(--fs-md);
 }
 
 .fs-sm {
-    font-size: var(--fs-sm);
+  font-size: var(--fs-sm);
 }
 
 .fs-xs {
-    font-size: var(--fs-xs);
+  font-size: var(--fs-xs);
 }
 
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }

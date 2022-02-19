@@ -1,9 +1,9 @@
-.img-fluid{
-	max-width: 100%;
-	height: auto;
-	border-radius: 0.2rem;
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.2rem;
 }
 
-.img-round{
-	border-radius: 50%;
+.img-round {
+  border-radius: 50%;
 }

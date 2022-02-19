@@ -1,49 +1,49 @@
-section{
-	max-width: 20rem;
+section {
+  max-width: 20rem;
 }
 
-.form-group{
-	display:flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Input Styles */
-.input input{
-	margin: 1rem;
-	outline: none;
-	padding: 0.5rem;
-	font-size: var(--fs-sm);
-	border-radius: 0.3rem;
+.input input {
+  margin: 1rem;
+  outline: none;
+  padding: 0.5rem;
+  font-size: var(--fs-sm);
+  border-radius: 0.3rem;
 }
 
 .input-label {
-	font-family: var(--font-secondary);
-	font-weight: bold;
-	display: block;
+  font-family: var(--font-secondary);
+  font-weight: bold;
+  display: block;
   font-size: var(--fs-sm);
   margin: 0 1rem;
 }
 
-.input-primary input{
-	border: 2px solid var(--clr-purple-dark);
-	color: var(--clr-purple-dark);
+.input-primary input {
+  border: 2px solid var(--clr-purple-dark);
+  color: var(--clr-purple-dark);
 }
 
-.input-msg{
-	font-weight: bold;
-	font-family: var(--font-secondary);
+.input-msg {
+  font-weight: bold;
+  font-family: var(--font-secondary);
 }
 
-input::placeholder{
-	color: var(--clr-gray-light);
+input::placeholder {
+  color: var(--clr-gray-light);
 }
 
 /* Success */
-.input-success input{
-	border: 2px solid var(--clr-green);
-	color: var(--clr-green-dark);
+.input-success input {
+  border: 2px solid var(--clr-green);
+  color: var(--clr-green-dark);
 }
 
 .input-success-msg {
@@ -58,5 +58,3 @@ input::placeholder{
 .input-error-msg {
   color: var(--clr-red-dark);
 }
-
-
