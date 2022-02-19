@@ -14,6 +14,7 @@
 @import '../components/Card/card.css';
 @import '../components/Typography/typography.css';
 @import '../components/List/list.css';
+@import '../components/Grid/grid.css';
 
 /* utilities */
 @import './utilities/container.css';
