@@ -1,0 +1,53 @@
+body {
+  font-family: var(--font-secondary);
+}
+
+.heading,
+.small-text,
+.gray-text {
+  padding: 1rem;
+}
+
+/* Heading */
+.heading {
+  font-weight: bold;
+}
+
+.h1 {
+  font-size: var(--fs-xxl);
+}
+
+.h2 {
+  font-size: var(--fs-xl);
+}
+
+.h3 {
+  font-size: var(--fs-lg);
+}
+
+.h4 {
+  font-size: var(--fs-md);
+}
+
+.h5 {
+  font-size: var(--fs-sm);
+}
+
+.h6 {
+  font-size: var(--fs-xs);
+}
+
+
+/* Small Text */
+
+.small-text {
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-bold);
+}
+
+/* Gray text */
+
+.gray-text {
+  color: var(--clr-gray-light);
+  font-weight: var(--fw-semi-bold);
+}
