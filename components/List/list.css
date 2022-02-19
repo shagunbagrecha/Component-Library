@@ -1,0 +1,43 @@
+.spaced-list,
+.stacked-list {
+  border: 1px solid var(--clr-gray-light);
+  border-radius: 0.25rem;
+  box-shadow: var(--box-shadow-basic);
+  margin: 1rem;
+  padding: 2.5rem;
+}
+
+.list-group-spaced {
+  max-width: 30rem;
+}
+
+.list-group {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 1rem;
+  font-family: var(--font-secondary);
+  font-weight: var(--fw-semi-bold);
+}
+
+.list-group-item {
+  padding: 1rem;
+  border-bottom: 1px solid var(--clr-gray-light);
+}
+
+.active {
+  color: white;
+  background: var(--clr-blue);
+}
+
+.list-group-stacked {
+  border: 1px solid var(--clr-gray-light);
+}
+
+.list-group-stacked:first-child {
+  border-top: none;
+}
+
+.list-group-stacked:last-child {
+  border-bottom: none;
+}
