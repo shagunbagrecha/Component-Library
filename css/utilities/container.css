@@ -1,24 +1,24 @@
-.container-center-xl{
-    max-width: 1280px;
-    margin: auto;
+.container-center-xl {
+  max-width: 1280px;
+  margin: auto;
 }
 
-.container-center-lg{
-    max-width: 1024px;
-    margin: auto;
+.container-center-lg {
+  max-width: 1024px;
+  margin: auto;
 }
 
-.container-center-md{
-    max-width: 768px;
-    margin: auto;
+.container-center-md {
+  max-width: 768px;
+  margin: auto;
 }
 
-.container-center-sm{
-    max-width: 640px;
-    margin: auto;
+.container-center-sm {
+  max-width: 640px;
+  margin: auto;
 }
 
-.container-center-xs{
-    max-width: 480px;
-    margin: auto;
+.container-center-xs {
+  max-width: 480px;
+  margin: auto;
 }
