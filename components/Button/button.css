@@ -44,23 +44,28 @@
 
 /* Outline Buttons */
 .btn-outline-success {
-  border: 2px solid var(--clr-green-dark);
+  outline: 2px solid var(--clr-green-dark);
   color: var(--clr-green-dark);
 }
 
 .btn-outline-danger {
-  border: 2px solid var(--clr-red-dark);
+  outline: 2px solid var(--clr-red-dark);
   color: var(--clr-red-dark);
 }
 
 .btn-outline-warning {
-  border: 2px solid var(--clr-yellow);
+  outline: 2px solid var(--clr-yellow);
   color: var(--clr-yellow);
 }
 
 .btn-outline-info {
-  border: 2px solid var(--clr-blue-dark);
+  outline: 2px solid var(--clr-blue-dark);
   color: var(--clr-blue-dark);
+}
+
+.btn-outline-primary {
+  outline: 2px solid var(--clr-purple-dark);
+  color: var(--clr-purple-dark);
 }
 
 /* floating button */
