@@ -23,7 +23,7 @@
 
   --clr-purple-light: #DDD6FE;
   --clr-purple: #8B5Cf6;
-  --clr-purple-dark: #7C3AED;
+  --clr-purple-dark: #6631c2;
 
   --clr-gray-light: #d1d1d1;
   --clr-gray: #6B7280;
@@ -57,6 +57,8 @@
   --fw-bold: 800;
   --fw-bolder: 900;
 
+  /* width */
+  --w-100: 100%;
 }
 
 /* resets */
@@ -77,4 +79,16 @@ html {
 body {
   min-height: 100vh;
   font-family: var(--ff-primary);
+}
+
+a,
+i {
+  cursor: pointer;
+}
+
+/* iframe */
+
+iframe {
+  margin: 2rem 0;
+  border-radius: 1rem;
 }

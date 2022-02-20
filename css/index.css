@@ -1,7 +1,7 @@
 /* fontawesome icons */
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css';
 
-/* root */
+/* root and reset */
 @import './base.css';
 
 /* components css */
@@ -22,3 +22,8 @@
 @import './utilities/flex.css';
 @import './utilities//text-utils.css';
 @import './utilities/spacing.css';
+
+/* Component Library Styling */
+
+@import './home.css';
+@import '../css/docs.css';
