@@ -1,0 +1,94 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Nunito+Sans:wght@300&display=swap');
+
+:root {
+
+  /* colors */
+
+  --clr-green-light: #A7F3D0;
+  --clr-green: #059669;
+  --clr-green-dark: #047857;
+
+  --clr-yellow-light: #FDE68A;
+  --clr-yellow: #F59E0B;
+  --clr-yellow-dark: #D97706;
+
+  --clr-blue-light: #BFDBFE;
+  --clr-blue: #3B82F6;
+  --clr-blue-dark: #2563EB;
+
+  --clr-red-light: #FECACA;
+  --clr-red: #EF4444;
+  --clr-red-dark: #DC2626;
+
+  --clr-purple-light: #DDD6FE;
+  --clr-purple: #8B5Cf6;
+  --clr-purple-dark: #6631c2;
+
+  --clr-gray-light: #d1d1d1;
+  --clr-gray: #6B7280;
+  --clr-gray-dark: #4B5563;
+
+  --clr-white: #ffffff;
+  --clr-black: #353535;
+
+
+  /* Box Shadow */
+  --box-shadow-basic: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --box-shadow-bolder: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  --box-shadow-inset: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+
+  /* font family */
+  --font-primary: 'Montserrat Alternates', sans-serif;
+  --font-secondary: 'Nunito Sans', sans-serif;
+
+  /* font size */
+  --fs-xxl: 3rem;
+  --fs-xl: 2.5rem;
+  --fs-lg: 2rem;
+  --fs-md: 1.5rem;
+  --fs-sm: 1.2rem;
+  --fs-xs: 0.8rem;
+
+  /* font weights */
+  --fw-normal: 500;
+  --fw-semi-bold: 600;
+  --fw-bold: 800;
+  --fw-bolder: 900;
+
+  /* width */
+  --w-100: 100%;
+}
+
+/* resets */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--ff-primary);
+}
+
+a,
+i {
+  cursor: pointer;
+}
+
+/* iframe */
+
+iframe {
+  margin: 2rem 0;
+  border-radius: 1rem;
+}
